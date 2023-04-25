@@ -268,7 +268,7 @@ function createBuyPanelIndo() {
 	buyPanel.innerHTML = `
 		<div class="pop-up__buy-panel__content">
 			<p><strong>${totalQuantity}</strong> товаров, к оплате: <strong>${totalPrice} ${bodyData.currency}</strong></p>
-			<a href="/new_order.html" class="btn-orange">Оформить заказ</a>
+			<a href="https://kaenu2.github.io/cart/new_order.html" class="btn-orange">Оформить заказ</a>
 		<div>
 	`;
 }
